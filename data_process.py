@@ -133,9 +133,9 @@ def run_task():
 
 if __name__ == '__main__':
     # run_task()
-    with open('data.pkl', 'rb') as f:
-        my_data = pickle.load(f)  # type: dict
-    # run_get()
+    # with open('data.pkl', 'rb') as f:
+    #     my_data = pickle.load(f)  # type: dict
+    run_get()
     rank_pic()
     plt.show()
     word_cloud_pic('long')
