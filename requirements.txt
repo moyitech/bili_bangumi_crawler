@@ -1,0 +1,9 @@
+requests
+httpx
+jieba
+matplotlib
+pandas
+paddlepaddle
+apscheduler
+wordcloud
+flask
